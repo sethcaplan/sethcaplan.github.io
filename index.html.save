@@ -86,7 +86,7 @@
 
   p {
     font-size: 16px;
-    //line-height: 60px;
+    line-height: 60px;
     margin-bottom: 0;
     color: #555;
 
@@ -98,14 +98,14 @@
   }
 
   .column:hover p, .columns:hover p {
-    //font-size: 25px;
-    //font-weight: bold;
+    font-size: 25px;
+    font-weight: bold;
 
-    //-webkit-transition-duration: .2s;
-    //-moz-transition-duration: .2s;
-    //-o-transition-duration: .2s;
-    //-ms-transition-duration: .2s;
-    //transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -o-transition-duration: .2s;
+    -ms-transition-duration: .2s;
+    transition-duration: .2s;
   }
 
   .head, .head:hover {
@@ -160,73 +160,25 @@
       <h2>Award winning independant producer</span>
     </div>
   </div>
-
+  
   <div class="row">
-    <div class="two columns" id="fgil">
-      <img src=/img/noimg.png">
+    <div class="two columns">
       <p>First Girl I Loved (2016)</p>
     </div>
-    <div class="two columns" id="tl">
-      <img src="/img/noimg.png">
+    <div class="two columns">
       <p>The Loner (2016)</p>
     </div>
-    <div class="two columns" id="follow">
-      <img src="/img/follow.png">
+    <div class="two columns">
       <p>Follow (2015)</p>
-</img>
     </div>
-    <div class="two columns" id="villisca">
+    <div class="two columns">
       <p>Villisca (2015)</p>
-</img>
     </div>
-    <div class="two columns" id="mmim">
+    <div class="two columns">
       <p>Meet Me in Montenegro (2014)</p>
     </div>
-    <div class="two columns" id="tlk">
+    <div class="two columns">
       <p>The Young Kieslowski (2014)</p>
-</img>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="two columns" id="tls">
-      <p>The Last Survivors (2014/IV)</p>
-    </div>
-    <div class="two columns" id="ymatc">
-      <p>You, Me &amp; The Circus (2012)</p>
-    </div>
-    <div class="two columns" id="f2s">
-      <p>Flatland 2: Sphereland (2012)</p>
-    </div>
-    <div class="two columns" id="aiv">
-      <p>Appointment in Vancouver (2009)</p>
-    </div>
-    <div class="two columns" id="td">
-      <p>Teenage Dirtbag (2009)</p>
-    </div>
-    <div class="two columns" id="natt">
-      <p>EMPTY</p>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="two columns" id="t2b">
-      <p>The 2 Bobs (2009)</p>
-    </div>
-    <div class="two columns" id="ftm">
-      <p>Flatland: The Movie (2007)</p>
-    </div>
-    <div class="two columns" id="isoamk">
-      <p>In Search of a Midnight Kiss (2007)</p>
-    </div>
-    <div class="two columns" id="dr">
-      <p>Duncan Removed (2006)</p>
-    </div>
-    <div class="two columns" id="td">
-      <p>The Cassidy Kids (2006)</p>
-    </div>
-    <div class="two columns" id="natt">
-      <p>Natinoal Threat (2009)</p>
     </div>
   </div>
 
@@ -282,19 +234,7 @@
   </script> -->
 
   <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-
-
-
-  <script>
-  var widthoflife = $('#thang').width();
-  $('.two').each(function(){
-	$(this).height((widthoflife/0.675));
-  });
-  </script>
-
-
-
+  <script src="js/m
 
   <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
      chromium.org/developers/how-tos/chrome-frame-getting-started -->
