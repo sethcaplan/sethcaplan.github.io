@@ -1,4 +1,4 @@
-<!doctype html>
+\<!doctype html>
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
@@ -43,7 +43,7 @@
 
 <style>
   html, body {
-    background: #fefefe;
+    background: #2B2D28;
   }
 
   .column, .columns, .tiles > li {
@@ -73,8 +73,8 @@
 
   h1, h2 {
     font: bold italic 120px helvetica, times new roman, serif;
-    color: #555;
-    letter-spacing: -.09em;
+    color: #eee;
+    letter-spacing: -.03em;
     -webkit-transition-duration: 1s;
   }
 
@@ -86,7 +86,7 @@
 
   p {
     font-size: 16px;
-    line-height: 60px;
+    //line-height: 60px;
     margin-bottom: 0;
     color: #555;
 
@@ -98,14 +98,14 @@
   }
 
   .column:hover p, .columns:hover p {
-    font-size: 25px;
-    font-weight: bold;
+    //font-size: 25px;
+    //font-weight: bold;
 
-    -webkit-transition-duration: .2s;
-    -moz-transition-duration: .2s;
-    -o-transition-duration: .2s;
-    -ms-transition-duration: .2s;
-    transition-duration: .2s;
+    //-webkit-transition-duration: .2s;
+    //-moz-transition-duration: .2s;
+    //-o-transition-duration: .2s;
+    //-ms-transition-duration: .2s;
+    //transition-duration: .2s;
   }
 
   .head, .head:hover {
@@ -162,63 +162,49 @@
   </div>
   
   <div class="row">
-    <div class="two columns">
-      <p>140px</p>
+    <div class="two columns" id="thang">
+      <img src=/img/noing.png">
+      <p>First Girl I Loved (2016)</p>
     </div>
-    <div class="two columns">
-      <p>140px</p>
+    <div class="two columns" id="thang">
+      </img src="/img/noimg.png">
+      <p>The Loner (2016)</p>
     </div>
-    <div class="two columns">
-      <p>140px</p>
+    <div class="two columns" id="thang">
+      <img src="/img/follor.png">
+      <p>Follow (2015)</p>
     </div>
-    <div class="two columns">
-      <p>140px</p>
+    <div class="two columns" id="thang">
+      <p>Villisca (2015)</p>
     </div>
-    <div class="two columns">
-      <p>140px</p>
+    <div class="two columns" id="thang">
+      <p>Meet Me in Montenegro (2014)</p>
     </div>
-    <div class="two columns">
-      <p>140px</p>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="three columns">
-      <p>220px</p>
-    </div>
-    <div class="three columns">
-      <p>220px</p>
-    </div>
-    <div class="three columns">
-      <p>220px</p>
-    </div>
-    <div class="three columns">
-      <p>220px</p>
+    <div class="two columns" id="thang">
+      <p>The Young Kieslowski (2014)</p>
     </div>
   </div>
 
   <div class="row">
-    <div class="four columns">
-      <p>300px</p>
+    <div class="two columns" id="thang">
+      <p>First Girl I Loved (2016)</p>
     </div>
-    <div class="four columns">
-      <p>300px</p>
+    <div class="two columns" id="thang">
+      <p>The Loner (2016)</p>
     </div>
-    <div class="four columns">
-      <p>300px</p>
+    <div class="two columns" id="thang">
+      <p>Follow (2015)</p>
+    </div>
+    <div class="two columns" id="thang">
+      <p>Villisca (2015)</p>
+    </div>
+    <div class="two columns" id="thang">
+      <p>Meet Me in Montenegro (2014)</p>
+    </div>
+    <div class="two columns" id="thang">
+      <p>The Young Kieslowski (2014)</p>
     </div>
   </div>
-
-  <div class="row">
-    <div class="six columns">
-      <p>460px</p>
-    </div>
-    <div class="six columns">
-      <p>460px</p>
-    </div>
-  </div>
-
-  </section>
 
 
   <!-- Grab Google CDN's jQuery, fall back to local if offline -->
@@ -275,13 +261,17 @@
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
-  <!-- Change UA-XXXXX-X to be your site's ID -->
-  <!--<script>
-  window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
-  Modernizr.load({
-    load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+
+
+  <script>
+  var widthoflife = $('#thang').width();
+  $('.two').each(function(){
+	$(this).height((widthoflife/0.675));
   });
-  </script>-->
+  </script>
+
+
+
 
   <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
      chromium.org/developers/how-tos/chrome-frame-getting-started -->
