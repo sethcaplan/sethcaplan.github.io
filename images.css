@@ -37,3 +37,47 @@ background-size: cover;
 background-image: url('/img/ymatc.png');
 background-size: cover;
 }
+
+#f2s{
+  background-image: url('/img/sphereland.png');
+  background-size: cover;
+}
+
+#aiv{
+  background-image: url('/img/aiv.png');
+  background-size: cover;
+}
+
+#td{
+  background-image: url('/img/td.png');
+  background-size: cover;
+}
+
+#nt{
+  background-image: url('/img/noimg.png');
+  background-size: cover;
+}
+
+#ttb{
+  background-image: url('/img/ttb.png');
+  background-size: cover;
+}
+
+#ftm{
+  background-image: url('/img/flatland.png');
+  background-size: cover;
+}
+
+#isoamk{
+  background-image: url('/img/isamk.png');
+  background-size: cover;
+}
+
+#dr{
+  background-image: url('/img/dr.png');
+}
+
+#tck{
+  background-image: url('img/noimg.png');
+  background-size: cover;
+}
