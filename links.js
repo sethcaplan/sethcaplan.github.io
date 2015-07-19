@@ -1,0 +1,17 @@
+$('#fgil').click(function(){window.location = http://www.imdb.com/title/tt4262174/ }); $('#tl').wrap("<a class='atwo' 
+href='http://www.imdb.com/title/tt4831810/'></a>"); $('#follow').wrap("<a class='atwo' 
+href='http://www.imdb.com/title/tt2697770/'></a>"); $('#villisca').wrap("<a class='atwo' 
+href='http://www.imdb.com/title/tt3320500/'></a>"); $('#mmim').wrap("<a class='atwo' 
+href='http://meetmeinmontenegro.me'></a>"); $('#tyk').wrap("<a class='atwo' 
+href='http://www.imdb.com/title/tt2912120/'></a>"); $('#tls').wrap("<a class='atwo' 
+href='http://www.imdb.com/title/tt2558318/'></a>"); $('ymatc').wrap("<a class='atwo' 
+href='http://www.imdb.com/title/tt2697770/'></a>"); $('#f2s').wrap("<a class='atwo' 
+href='http://spherelandthemovie.com'></a>"); $('#aiv').wrap("<a class='atwo' 
+href='http://www.imdb.com/title/tt1524088/'></a>"); $('#td').wrap("<a class='atwo' 
+href='http://www.imdb.com/title/tt1091207/'></a>"); $('#nt').wrap("<a class='atwo' 
+href='http://www.imdb.com/title/tt4843158/'></a>"); $('#ttb').wrap("<a class='atwo' 
+href='http://www.imdb.com/title/tt1217305/'></a>"); $('#ftm').wrap("<a class='atwo' 
+href='http://flatlandthemovie.com'></a>"); $('#isoamk').wrap("<a class='atwo' 
+href='http://www.imdb.com/title/tt0989000/'></a>"); $('#dr').wrap("<a class='atwo' 
+href='http://www.imdb.com/title/tt0800013/'></a>"); $('#tck').wrap("<a 
+class='atwo'href='http://www.imdb.com/title/tt0476967/'></a>");

@@ -1,11 +1,13 @@
 #fgil{
 background-image: url('/img/fgil.png');
 background-size: cover;
+background-position: right;
 }
 
 #tl{
-background-image: url('/img/tl.png');
-background-size: cover;
+//background-image: url('/img/tl.png');
+background-image: url('/img/noimg.png');
+background-size: 100%;
 }
 
 #follow{
@@ -24,7 +26,7 @@ background-size: cover;
 }
 
 #tyk{
-background-image: url('/img/tlk.png');
+background-image: url('/img/tyk.png');
 background-size: cover;
 }
 
@@ -55,7 +57,7 @@ background-size: cover;
 
 #nt{
   background-image: url('/img/noimg.png');
-  background-size: cover;
+  background-size: 100%;
 }
 
 #ttb{
@@ -75,9 +77,15 @@ background-size: cover;
 
 #dr{
   background-image: url('/img/dr.png');
+  background-size: cover;
 }
 
 #tck{
   background-image: url('img/noimg.png');
-  background-size: cover;
+  background-size: 100%;
+}
+
+#nothing{
+  background-image: url('/img/noimg.png');
+  background-size: 100%;
 }
