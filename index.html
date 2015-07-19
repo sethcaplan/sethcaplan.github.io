@@ -18,7 +18,7 @@
   <meta name="keywords" content="" />
   <meta name="author" content="humans.txt">
 
-  <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
   <!-- Facebook Metadata /-->
   <meta property="fb:page_id" content="" />
@@ -152,6 +152,7 @@
 
 </style>
 
+<link rel="stylesheet" href="images.css">
 <body>
 
   <div class="row">
@@ -163,28 +164,22 @@
 
   <div class="row">
     <div class="two columns" id="fgil">
-      <img src=/img/noimg.png">
-      <p>First Girl I Loved (2016)</p>
+      <p></p>
     </div>
     <div class="two columns" id="tl">
-      <img src="/img/noimg.png">
-      <p>The Loner (2016)</p>
+      <p></p>
     </div>
     <div class="two columns" id="follow">
-      <img src="/img/follow.png">
       <p>Follow (2015)</p>
-</img>
     </div>
     <div class="two columns" id="villisca">
       <p>Villisca (2015)</p>
-</img>
     </div>
     <div class="two columns" id="mmim">
       <p>Meet Me in Montenegro (2014)</p>
     </div>
     <div class="two columns" id="tlk">
       <p>The Young Kieslowski (2014)</p>
-</img>
     </div>
   </div>
 
@@ -205,7 +200,7 @@
       <p>Teenage Dirtbag (2009)</p>
     </div>
     <div class="two columns" id="natt">
-      <p>EMPTY</p>
+      <p>National Threat (2009)</p>
     </div>
   </div>
 
@@ -226,7 +221,7 @@
       <p>The Cassidy Kids (2006)</p>
     </div>
     <div class="two columns" id="natt">
-      <p>Natinoal Threat (2009)</p>
+      <p>EMPTY</p>
     </div>
   </div>
 
@@ -287,10 +282,13 @@
 
 
   <script>
-  var widthoflife = $('#thang').width();
-  $('.two').each(function(){
-	$(this).height((widthoflife/0.675));
-  });
+  var fixLayout = function() {
+    var widthoflife = $('#fgil').width();
+    $('.two').each(function(){
+  	$(this).height((widthoflife/0.675));
+    });
+  }
+setTimeout(fixLayout, 20);
   </script>
 
 
