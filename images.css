@@ -1,91 +1,96 @@
+#comingsoon{
+background-image: url('/img/comingsoon.svg');
+background-size: cover;
+}
+
 #fgil{
-background-image: url('/img/fgil.png');
+background-image: url('/img/fgil.jpg');
 background-size: cover;
 background-position: right;
 }
 
 #tl{
-//background-image: url('/img/tl.png');
-background-image: url('/img/noimg.png');
-background-size: 100%;
-}
-
-#follow{
-background-image: url('/img/follow.png');
+background-image: url('/img/tl.jpg');
 background-size: cover;
 }
 
+#follow{
+background-image: url('/img/follow.jpg');
+background-size: cover;
+background-position: center;
+}
+
 #villisca{
-background-image: url('/img/villisca.png');
+background-image: url('/img/villisca.jpg');
 background-size: cover;
 }
 
 #mmim{
-background-image: url('/img/mmim.png');
+background-image: url('/img/mmim.jpg');
 background-size: cover;
 }
 
 #tyk{
-background-image: url('/img/tyk.png');
+background-image: url('/img/tyk.jpg');
 background-size: cover;
 }
 
 #tls{
-background-image: url('/img/well.png');
+background-image: url('/img/well.jpg');
 background-size: cover;
 }
 
 #ymatc{
-background-image: url('/img/ymatc.png');
+background-image: url('/img/ymatc.jpg');
 background-size: cover;
 }
 
 #f2s{
-  background-image: url('/img/sphereland.png');
+  background-image: url('/img/sphereland.jpg');
   background-size: cover;
 }
 
 #aiv{
-  background-image: url('/img/aiv.png');
+  background-image: url('/img/aiv.jpg');
   background-size: cover;
 }
 
 #td{
-  background-image: url('/img/td.png');
+  background-image: url('/img/td.jpg');
   background-size: cover;
 }
 
 #nt{
-  background-image: url('/img/noimg.png');
+  background-image: url('/img/noimg.jpg');
   background-size: 100%;
 }
 
 #ttb{
-  background-image: url('/img/ttb.png');
+  background-image: url('/img/ttb.jpg');
   background-size: cover;
 }
 
 #ftm{
-  background-image: url('/img/flatland.png');
+  background-image: url('/img/flatland.jpg');
   background-size: cover;
 }
 
 #isoamk{
-  background-image: url('/img/isamk.png');
+  background-image: url('/img/isamk.jpg');
   background-size: cover;
 }
 
 #dr{
-  background-image: url('/img/dr.png');
+  background-image: url('/img/dr.jpg');
   background-size: cover;
 }
 
 #tck{
-  background-image: url('img/noimg.png');
+  background-image: url('img/tck.jpg');
   background-size: 100%;
 }
 
 #nothing{
-  background-image: url('/img/noimg.png');
+  background-image: url('/img/noimg.jpg');
   background-size: 100%;
 }

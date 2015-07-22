@@ -1,4 +1,4 @@
-\<!doctype html>
+<!doctype html>
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
@@ -18,7 +18,7 @@
   <meta name="keywords" content="" />
   <meta name="author" content="humans.txt">
 
-  <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
   <!-- Facebook Metadata /-->
   <meta property="fb:page_id" content="" />
@@ -41,146 +41,50 @@
   <script src="js/libs/modernizr-2.6.2.min.js"></script>
 </head>
 
-<style>
-  html, body {
-    background: #2B2D28;
-  }
+<link rel="stylesheet" href="style.css">
 
-  .column, .columns, .tiles > li {
-    background: #ddd;
-        border: 1px solid #d0d0d0;
-    -webkit-transition-duration: .3s;
-    -moz-transition-duration: .3s;
-    -o-transition-duration: .3s;
-    -ms-transition-duration: .3s;
-    transition-duration: .3s;
-  }
-
-  .column:hover, .columns:hover {
-    background: #efefef;
-    cursor: pointer;
-    -webkit-transition-duration: .3s;
-    -moz-transition-duration: .3s;
-    -o-transition-duration: .3s;
-    -ms-transition-duration: .3s;
-    transition-duration: .3s;
-  }
-
-  .row {
-    margin-bottom: 25px;
-    text-align: center;
-  }
-
-  h1, h2 {
-    font: bold italic 120px helvetica, times new roman, serif;
-    color: #eee;
-    letter-spacing: -.03em;
-    -webkit-transition-duration: 1s;
-  }
-
-  h2  {
-    font-size: 21px;
-    font-weight: normal;
-    line-height: 1.6;
-  }
-
-  p {
-    font-size: 16px;
-    line-height: 60px;
-    margin-bottom: 0;
-    color: #555;
-
-    -webkit-transition-duration: .2s;
-    -moz-transition-duration: .2s;
-    -o-transition-duration: .2s;
-    -ms-transition-duration: .2s;
-    transition-duration: .2s;
-  }
-
-  .column:hover p, .columns:hover p {
-    font-size: 25px;
-    font-weight: bold;
-
-    -webkit-transition-duration: .2s;
-    -moz-transition-duration: .2s;
-    -o-transition-duration: .2s;
-    -ms-transition-duration: .2s;
-    transition-duration: .2s;
-  }
-
-  .head, .head:hover {
-    box-shadow: none;
-    margin-top: 30px;
-  }
-
-  .head span {
-    font-weight: bold;
-    color: #353535;
-  }
-
-  .head span span {
-    font-size: 32px;
-    font-weight: bold !important;
-  }
-
-  a {
-    color: #d04526;
-  }
-
-  a:hover {
-    text-decoration:underline;
-  }
-
-  .special, .special:hover {
-    background: transparent;
-        border: none;
-  }
-
-  .special:hover p {
-    color: #ffe400;
-  }
-
-  @media only screen and (max-width: 767px) {
-
-    h1 {
-      font: bold italic 100px georgia, times new roman, serif;
-      -webkit-transition-duration: .5s;
-    }
-
-  }
-
-
-</style>
-
+<link rel="stylesheet" href="images.css">
 <body>
+
+<div class="row navbar" id="nav1">
+  <!-- Toggle for mobile navigation, targeting the <ul> -->
+<a class="toggle" gumby-trigger="#nav1 > ul" href="#"><i class="icon-menu"></i></a>
+  <ul class="twelve columns" style="background-color: #4a4d50; border: 0px;">
+    <li><a style="text-decoration:none;" href="index.html">Home</a></li>
+    <li><a style="text-decoration:none;" href="awards.html">Awards</a></li>
+    <li><a style="text-decoration:none;" href="contact.html">Contact</a></li>
+  </ul>
+</div>
+
 
   <div class="row">
     <div class="twelve columns special head">
       <h1>Seth Caplan</h1>
-      <h2>Award winning independant producer</span>
+      <h2>Award winning independent producer</span>
     </div>
   </div>
-  
+
   <div class="row">
-    <div class="two columns">
-      <p>First Girl I Loved (2016)</p>
-    </div>
-    <div class="two columns">
-      <p>The Loner (2016)</p>
-    </div>
-    <div class="two columns">
-      <p>Follow (2015)</p>
-    </div>
-    <div class="two columns">
-      <p>Villisca (2015)</p>
-    </div>
-    <div class="two columns">
-      <p>Meet Me in Montenegro (2014)</p>
-    </div>
-    <div class="two columns">
-      <p>The Young Kieslowski (2014)</p>
+    <div class="twelve columns" id="about" style="background-color: #2B2D28; border-color: #2B2D28;">
+      <p style="color: #eee; font-size: 200%">About</p>
+      <p align="left" style="color: #EEE; line-height: 200%">Seth Caplan is an award winning filmmaker who has written and produced an acclaimed collection of feature films, animated movies, and documentary programs. Seth has won numerous awards including the John Cassavetes Independent Spirit Award for his film “IN SEARCH OF A MIDNIGHT KISS” and the Audience Award for best Narrative Feature at the 2014 Los Angeles Film Festival for “The Young Kieslowski”. 
+</br>
+</br>
+Seth co-wrote and produced “FLATLAND: The Movie”, an animated film starring the voices of Martin Sheen, Kristen Bell, and Michael York. Seen by over 1 million students around the world, “Flatland” has been licensed by the U.S. State Department and Ministries of Education in numerous countries.
+</br>
+</br>
+Seth’s movies have been featured at many film festivals including: The Tribeca Film Festival, Toronto International Film Festival, SXSW, LAFF, The Edinburgh Film Festival, Chicago International Film Festival, AFI Fest, UrbanWorld, Raindance, Woodstock, Istanbul, Bangkok, Krakow, Sarajevo, New Zealand and many more. In addition, his films have been televised on the Sundance Channel, IFC, PBS, Starz and NBC/Universal Sports Network.
+</br>
+</br>
+Seth has served on the jury for the Austin Film Festival and for the Piaget Independent Producer of the Year award. He holds degrees from the University of Texas at Austin and an M.F.A. from the American Film Institute where he was awarded a student Emmy and Academy Award nomination for his thesis film “DUNCAN REMOVED”.
+</br>
+</br>
+Prior to his film work Seth co-founded Enspire Learning, an innovative online learning company. Enspire has been in business for over 10 years and is a recognized leader in the creation of transformative learning experiences. At Enspire Seth managed the development of courses for clients including the U.S. Department of Education, Harvard Business School, and The World Bank.</p>
     </div>
   </div>
+
+
+<footer>Copyright &copy; 2015 Seth Caplan. | Site by <a href="http://guscaplan.github.io/">Gus Caplan</a></footer>
 
   <!-- Grab Google CDN's jQuery, fall back to local if offline -->
   <!-- 2.0 for modern browsers, 1.10 for .oldie -->
@@ -234,7 +138,22 @@
   </script> -->
 
   <script src="js/plugins.js"></script>
-  <script src="js/m
+  <script src="js/main.js"></script>
+
+
+
+  <script>
+  var fixLayout = function() {
+    var widthoflife = $('#fgil').width();
+    $('.two').each(function(){
+  	$(this).height((widthoflife/0.675));
+    });
+  }
+setTimeout(fixLayout, 20);
+  </script>
+
+<script src="links.js"></script>
+
 
   <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
      chromium.org/developers/how-tos/chrome-frame-getting-started -->

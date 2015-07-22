@@ -1,0 +1,126 @@
+
+
+  footer{
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  html, body {
+    background: #2B2D28;
+  }
+
+  .column, .columns, .tiles > li {
+    background: #ddd;
+        border: 1px solid #d0d0d0;
+    -webkit-transition-duration: .3s;
+    -moz-transition-duration: .3s;
+    -o-transition-duration: .3s;
+    -ms-transition-duration: .3s;
+    transition-duration: .3s;
+  }
+
+  .two:hover, .two:hover {
+    background: #efefef;
+    cursor: pointer;
+
+    -ms-transform: scale(1.2,1.2); /* IE 9 */
+    -webkit-transform: scale(1.2, 1.2); /* Safari */
+    transform: scale(1.2, 1.2); /* Standard syntax */
+
+    -webkit-transition-duration: .3s;
+    -moz-transition-duration: .3s;
+    -o-transition-duration: .3s;
+    -ms-transition-duration: .3s;
+    transition-duration: .3s;
+  }
+
+  .row {
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  h1, h2 {
+    font: bold 120px helvetica, sans-serif;
+    color: #eee;
+    letter-spacing: -.03em;
+    -webkit-transition-duration: 1s;
+padding-top: 0px;
+  }
+
+  h2  {
+    font-size: 21px;
+    font-weight: normal;
+    line-height: 1.6;
+  }
+
+  p {
+    font-size: 16px;
+    //line-height: 60px;
+    margin-bottom: 0;
+    color: #555;
+
+    -webkit-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -o-transition-duration: .2s;
+    -ms-transition-duration: .2s;
+    transition-duration: .2s;
+  }
+
+  .column:hover p, .columns:hover p{
+    //font-size: 25px;
+    //font-weight: bold;
+    
+    //-webkit-transition-duration: .2s;
+    //-moz-transition-duration: .2s;
+    //-o-transition-duration: .2s;
+    //-ms-transition-duration: .2s;
+    /transition-duration: .2s;
+  }
+
+  .head span {
+    font-weight: bold;
+    color: #353535;
+  }
+
+  .head span span {
+    font-size: 32px;
+    font-weight: bold !important;
+  }
+
+  a {
+    color: #d04526;
+  }
+
+  a:hover {
+    text-decoration:underline;
+  }
+
+  .special, .special:hover {
+    background: transparent;
+        border: none;
+  }
+
+  .special:hover p {
+    color: #ffe400;
+  }
+
+  @media only screen and (max-width: 767px) {
+
+    h1 {
+      font: bold italic 100px georgia, times new roman, serif;
+      -webkit-transition-duration: .5s;
+    }
+
+  }
+
+#nav1 ul {
+    width: 100%;
+    margin: auto;
+}
+
+
+#nav1 li {
+    width: 33%;
+    font-size: 160%;
+}
+
